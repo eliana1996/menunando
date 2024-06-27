@@ -1,0 +1,8 @@
+# greet_user.py
+
+def greet_user():
+    name = input("Aapka naam kya hai? ")
+    print(f"Salam, {name}!")
+
+if __name__ == '__main__':
+    greet_user()
